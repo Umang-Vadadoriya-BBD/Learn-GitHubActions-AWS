@@ -2,7 +2,7 @@ name: liquibase
 run-name: Setting up the Liquibase database
 on:
     pull_request:
-        branches: [master]
+        branches: [main]
 
 jobs:
   test-output:
