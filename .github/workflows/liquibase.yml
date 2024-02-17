@@ -1,0 +1,12 @@
+name: liquibase
+run-name: Setting up the Liquibase database
+on:
+    pull_request:
+        branches: [master]
+
+jobs:
+  test-output:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test Output
+      run: echo "Here is a test"
