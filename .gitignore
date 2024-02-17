@@ -1,7 +1,5 @@
-changelog.sql
 liquibase.advanced.flowfile.yaml
 liquibase.checks-package.yaml
 liquibase.endstage.flow
 liquibase.flowfile.yaml
 liquibase.flowvariables.yaml
-liquibase.properties
